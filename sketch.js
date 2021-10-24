@@ -2,6 +2,12 @@ function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
 }
 
+
+function windowResized() {
+ resizeCanvas(windowWidth, windowHeight)
+}
+
+
 function draw() {
   background(250);
 
